@@ -4464,6 +4464,7 @@ tbody.collapse.show {
         display: -ms-flexbox !important;
         display: flex !important;
         -ms-flex-preferred-size: auto;
+        justify-content: center;
         flex-basis: auto;
     }
 
@@ -8208,10 +8209,6 @@ button.bg-dark:focus {
     margin-bottom: auto !important;
 }
 
-.ml-auto,
-.mx-auto {
-    margin-left: auto !important;
-}
 
 @media (min-width: 576px) {
     .m-sm-0 {
@@ -9756,7 +9753,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/main-background.jpeg") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/img-main.png") no-repeat center center;
     background-size: cover;
     background-position: 50%;
     height: 100vh;
